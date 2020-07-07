@@ -25,75 +25,86 @@ import com.crm.qa.pages.HomePage;
 import com.crm.qa.pages.LoginPage;
 import com.crm.qa.util.TestUtil;
 
-public class ContactsPageTest extends TestBase{
+// https://www.youtube.com/watch?v=ea0P7MBQmiM (57:41)
+
+public class ContactsPageTest extends TestBase {
 
 	LoginPage loginPage;
 	HomePage homePage;
 	TestUtil testUtil;
 	ContactsPage contactsPage;
-	
 	String sheetName = "contacts";
-	
-	   
-	public ContactsPageTest(){
-			super();
-			
+
+	// call super class constructor to initialize properties
+	public ContactsPageTest() {
+		super();
 	}
-	
-	
+
 	@BeforeMethod
 	public void setUp() throws InterruptedException {
-		
+
 		initialization();
+
 		testUtil = new TestUtil();
+
 		contactsPage = new ContactsPage();
+
+		// entered application
 		loginPage = new LoginPage();
 		homePage = loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
+
 		TestUtil.runTimeInfo("error", "login successful");
-		testUtil.switchToFrame();
+
+		// in homePage.java > click on Contacts link
+		// https://www.youtube.com/watch?v=ea0P7MBQmiM (1:03:00)
+		// testUtil.switchToFrame();
 		contactsPage = homePage.clickOnContactsLink();
 	}
-	
-	@Test(priority=1)
-	public void verifyContactsPageLabel(){
+
+	@Test(priority = 1)
+	public void verifyContactsPageLabel() {
 		Assert.assertTrue(contactsPage.verifyContactsLabel(), "contacts label is missing on the page");
 	}
-	
-	@Test(priority=2)
-	public void selectSingleContactsTest(){
-		contactsPage.selectContactsByName("test2 test2");
+
+	@Test(priority = 2)
+	public void verifySelectSingleContactsTest() {
+		contactsPage.selectContactsByName("Steven VerlMun");
 	}
-	
-	@Test(priority=3)
-	public void selectMultipleContactsTest(){
-		contactsPage.selectContactsByName("test2 test2");
-		contactsPage.selectContactsByName("ui uiii");
+
+	@Test(priority = 3)
+	public void verifySelectMultipleContactsTest() {
+		contactsPage.selectContactsByName("Steven VerlMun");
+		contactsPage.selectContactsByName("John Dang");
 
 	}
-	
+
+	// https://www.youtube.com/watch?v=H2-3w-GQZ3g - 4 (30:00)
 	@DataProvider
-	public Object[][] getCRMTestData(){
+	public Object[][] getCRMTestData() {
 		Object data[][] = TestUtil.getTestData(sheetName);
 		return data;
 	}
-	
-	
-	@Test(priority=4, dataProvider="getCRMTestData")
-	public void validateCreateNewContact(String title, String firstName, String lastName, String company){
-		homePage.clickOnNewContactLink();
+
+	// https://www.youtube.com/watch?v=H2-3w-GQZ3g - 4 (19:00)
+	@Test(priority = 4, dataProvider = "getCRMTestData")
+	public void verifyCreateNewContact(String firstName, String lastName, String company) {
+		
+		homePage.clickOnNewContactLink(); // click on New contact button
+		
 		//contactsPage.createNewContact("Mr.", "Tom", "Peter", "Google");
-		contactsPage.createNewContact(title, firstName, lastName, company);
+		contactsPage.createNewContact(firstName, lastName, company);
+
+		
+		// https://www.youtube.com/watch?v=H2-3w-GQZ3g - 4 (38:40)
+		// add assertion to verify CreateNewContact successful or not
 		
 	}
 	
 	
 
 	@AfterMethod
-	public void tearDown(){
+	public void closeBrowser() {
 		driver.quit();
 	}
-	
-	
-	
-	
+
 }

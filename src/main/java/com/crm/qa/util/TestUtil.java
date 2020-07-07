@@ -18,19 +18,25 @@ import com.crm.qa.base.TestBase;
 
 public class TestUtil extends TestBase {
 
-	public static long PAGE_LOAD_TIMEOUT = 20;
-	public static long IMPLICIT_WAIT = 20;
+	// https://www.youtube.com/watch?v=LxJzeiTQGoE (35:00)
+	public static long PAGE_LOAD_TIMEOUT = 90;
+	public static long IMPLICIT_WAIT = 90;
 
-	public static String TESTDATA_SHEET_PATH = "/Users/naveenkhunteta/Documents/workspace"
-			+ "/FreeCRMTest/src/main/java/com/crm/qa/testdata/FreeCrmTestData.xlsx";
-
-	static Workbook book;
-	static Sheet sheet;
-	static JavascriptExecutor js;
-
+	// frame switchToFrame is common method 
+	// https://www.youtube.com/watch?v=ea0P7MBQmiM (40:25)
 	public void switchToFrame() {
 		driver.switchTo().frame("mainpanel");
 	}
+	
+	
+	// https://www.youtube.com/watch?v=H2-3w-GQZ3g (27:00)
+	// update test data.xlsx path location 
+	public static String TESTDATA_SHEET_PATH = "C:\\Users\\u029jxd\\Documents\\Selenium\\PageObjectModel\\src\\main\\java\\com\\crm\\qa\\testdata\\FreeCrmTestData.xlsx";
+
+	// data driven - return 2 dimension array
+	static Workbook book;
+	static Sheet sheet;
+	static JavascriptExecutor js;
 
 	public static Object[][] getTestData(String sheetName) {
 		FileInputStream file = null;
@@ -59,12 +65,14 @@ public class TestUtil extends TestBase {
 		return data;
 	}
 
+	// https://www.youtube.com/watch?v=H2-3w-GQZ3g - 4 (55:40)
 	public static void takeScreenshotAtEndOfTest() throws IOException {
 		File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		String currentDir = System.getProperty("user.dir");
 		FileUtils.copyFile(scrFile, new File(currentDir + "/screenshots/" + System.currentTimeMillis() + ".png"));
 	}
-
+	
+	//
 	public static void runTimeInfo(String messageType, String message) throws InterruptedException {
 		js = (JavascriptExecutor) driver;
 		// Check for jQuery on the page, add it if need be
