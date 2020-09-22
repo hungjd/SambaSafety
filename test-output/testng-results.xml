@@ -2,39 +2,32 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-09-21T22:55:51 CDT" name="Default suite" finished-at="2020-09-21T22:56:50 CDT" duration-ms="59196">
+  <suite started-at="2020-09-21T23:37:44 CDT" name="Default suite" finished-at="2020-09-21T23:38:11 CDT" duration-ms="27426">
     <groups>
     </groups>
-    <test started-at="2020-09-21T22:55:51 CDT" name="Default test" finished-at="2020-09-21T22:56:50 CDT" duration-ms="59196">
-      <class name="sambasafety.testcases.SubmitTicketTest">
-        <test-method is-config="true" signature="setExtent()[pri:0, instance:sambasafety.testcases.SubmitTicketTest@366647c2]" started-at="2020-09-21T22:55:51 CDT" name="setExtent" finished-at="2020-09-21T22:55:52 CDT" duration-ms="373" status="PASS">
+    <test started-at="2020-09-21T23:37:44 CDT" name="Default test" finished-at="2020-09-21T23:38:11 CDT" duration-ms="27426">
+      <class name="sambasafety.testcases.HomePageSearchTest">
+        <test-method is-config="true" signature="setExtent()[pri:0, instance:sambasafety.testcases.HomePageSearchTest@55b53d44]" started-at="2020-09-21T23:37:44 CDT" name="setExtent" finished-at="2020-09-21T23:37:44 CDT" duration-ms="256" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setExtent -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:sambasafety.testcases.SubmitTicketTest@366647c2]" started-at="2020-09-21T22:55:52 CDT" name="setup" finished-at="2020-09-21T22:56:14 CDT" duration-ms="22726" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:sambasafety.testcases.HomePageSearchTest@55b53d44]" started-at="2020-09-21T23:37:44 CDT" name="setup" finished-at="2020-09-21T23:37:56 CDT" duration-ms="11699" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="SubmitATicketTest()[pri:1, instance:sambasafety.testcases.SubmitTicketTest@366647c2]" started-at="2020-09-21T22:56:14 CDT" name="SubmitATicketTest" finished-at="2020-09-21T22:56:49 CDT" duration-ms="34562" status="PASS">
+        <test-method signature="SearchTest()[pri:1, instance:sambasafety.testcases.HomePageSearchTest@55b53d44]" started-at="2020-09-21T23:37:56 CDT" name="SearchTest" finished-at="2020-09-21T23:38:10 CDT" duration-ms="14528" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SubmitATicketTest -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:sambasafety.testcases.SubmitTicketTest@366647c2]" started-at="2020-09-21T22:56:49 CDT" name="tearDown" finished-at="2020-09-21T22:56:50 CDT" duration-ms="1087" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=SubmitATicketTest status=SUCCESS method=SubmitTicketTest.SubmitATicketTest()[pri:1, instance:sambasafety.testcases.SubmitTicketTest@366647c2] output={null}]]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- SearchTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:sambasafety.testcases.HomePageSearchTest@55b53d44]" started-at="2020-09-21T23:38:10 CDT" name="tearDown" finished-at="2020-09-21T23:38:11 CDT" duration-ms="904" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="endReport()[pri:0, instance:sambasafety.testcases.SubmitTicketTest@366647c2]" started-at="2020-09-21T22:56:50 CDT" name="endReport" finished-at="2020-09-21T22:56:50 CDT" duration-ms="404" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:sambasafety.testcases.HomePageSearchTest@55b53d44]" started-at="2020-09-21T23:38:11 CDT" name="tearDown" finished-at="2020-09-21T23:38:11 CDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- endReport -->
-      </class> <!-- sambasafety.testcases.SubmitTicketTest -->
+        </test-method> <!-- tearDown -->
+      </class> <!-- sambasafety.testcases.HomePageSearchTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
