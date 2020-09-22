@@ -98,7 +98,7 @@ public class HomePageTest {
 
 	// TestCase 3: validate CopyRight
 	@Test(priority = 3, enabled = true)
-	public void SambaSafetyCopyRightTest() {
+	public void CopyRightTest() {
 		extentTest = extent.startTest("SambaSafetyCopyRightTest");
 
 		// flash LogoImage
