@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FREE CRM Application Test Automation Test Suite">
+
+
+	<!-- add listener tag code to testng.xml 
+	https://www.youtube.com/watch?v=m4rjnOxqcjg  (8:31)
+	-->
+	<listeners>
+		<listener class-name="com.ExtentReportListner.ExtentReporterNG"/>
+	</listeners>
+
+	<test name="Free CRM App Test Cases">
+		<classes>
+			<class name="sambasafety.testcases.HomePageTest"></class>
+		
+		</classes>
+	</test>
+</suite>
