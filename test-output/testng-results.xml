@@ -1,239 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="11" passed="10" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-07-07T15:52:02Z" name="FREE CRM Application Test Automation Test Suite" finished-at="2020-07-07T15:57:39Z" duration-ms="336902">
+  <suite started-at="2020-09-21T22:55:51 CDT" name="Default suite" finished-at="2020-09-21T22:56:50 CDT" duration-ms="59196">
     <groups>
     </groups>
-    <test started-at="2020-07-07T15:52:02Z" name="Free CRM App Test Cases" finished-at="2020-07-07T15:57:39Z" duration-ms="336902">
-      <class name="com.crm.qa.testcases.HomePageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.HomePageTest@3d34d211]" started-at="2020-07-07T10:52:14Z" name="setUp" finished-at="2020-07-07T10:52:26Z" duration-ms="12527" status="PASS">
+    <test started-at="2020-09-21T22:55:51 CDT" name="Default test" finished-at="2020-09-21T22:56:50 CDT" duration-ms="59196">
+      <class name="sambasafety.testcases.SubmitTicketTest">
+        <test-method is-config="true" signature="setExtent()[pri:0, instance:sambasafety.testcases.SubmitTicketTest@366647c2]" started-at="2020-09-21T22:55:51 CDT" name="setExtent" finished-at="2020-09-21T22:55:52 CDT" duration-ms="373" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyHomePageTitleTest()[pri:1, instance:com.crm.qa.testcases.HomePageTest@3d34d211]" started-at="2020-07-07T10:52:26Z" name="verifyHomePageTitleTest" finished-at="2020-07-07T10:52:26Z" duration-ms="7" status="PASS">
+        </test-method> <!-- setExtent -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:sambasafety.testcases.SubmitTicketTest@366647c2]" started-at="2020-09-21T22:55:52 CDT" name="setup" finished-at="2020-09-21T22:56:14 CDT" duration-ms="22726" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyHomePageTitleTest -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.crm.qa.testcases.HomePageTest@3d34d211]" started-at="2020-07-07T10:52:26Z" name="closeBrowser" finished-at="2020-07-07T10:52:27Z" duration-ms="1302" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="SubmitATicketTest()[pri:1, instance:sambasafety.testcases.SubmitTicketTest@366647c2]" started-at="2020-09-21T22:56:14 CDT" name="SubmitATicketTest" finished-at="2020-09-21T22:56:49 CDT" duration-ms="34562" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.HomePageTest@3d34d211]" started-at="2020-07-07T10:53:05Z" name="setUp" finished-at="2020-07-07T10:53:18Z" duration-ms="12689" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyUserNameTest()[pri:2, instance:com.crm.qa.testcases.HomePageTest@3d34d211]" started-at="2020-07-07T10:53:18Z" name="verifyUserNameTest" finished-at="2020-07-07T10:53:19Z" duration-ms="1518" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyUserNameTest -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.crm.qa.testcases.HomePageTest@3d34d211]" started-at="2020-07-07T10:53:19Z" name="closeBrowser" finished-at="2020-07-07T10:53:20Z" duration-ms="1456" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.HomePageTest@3d34d211]" started-at="2020-07-07T10:54:00Z" name="setUp" finished-at="2020-07-07T10:54:12Z" duration-ms="12692" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyContactsLinkTest()[pri:3, instance:com.crm.qa.testcases.HomePageTest@3d34d211]" started-at="2020-07-07T10:54:12Z" name="verifyContactsLinkTest" finished-at="2020-07-07T10:54:14Z" duration-ms="1218" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyContactsLinkTest -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.crm.qa.testcases.HomePageTest@3d34d211]" started-at="2020-07-07T10:54:14Z" name="closeBrowser" finished-at="2020-07-07T10:54:15Z" duration-ms="1470" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- com.crm.qa.testcases.HomePageTest -->
-      <class name="com.crm.qa.testcases.ContactsPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@7dc0f706]" started-at="2020-07-07T10:52:27Z" name="setUp" finished-at="2020-07-07T10:52:54Z" duration-ms="26239" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyContactsPageLabel()[pri:1, instance:com.crm.qa.testcases.ContactsPageTest@7dc0f706]" started-at="2020-07-07T10:52:54Z" name="verifyContactsPageLabel" finished-at="2020-07-07T10:52:54Z" duration-ms="91" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyContactsPageLabel -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@7dc0f706]" started-at="2020-07-07T10:52:54Z" name="closeBrowser" finished-at="2020-07-07T10:52:55Z" duration-ms="1584" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@7dc0f706]" started-at="2020-07-07T10:53:20Z" name="setUp" finished-at="2020-07-07T10:53:47Z" duration-ms="26900" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifySelectSingleContactsTest()[pri:2, instance:com.crm.qa.testcases.ContactsPageTest@7dc0f706]" started-at="2020-07-07T10:53:47Z" name="verifySelectSingleContactsTest" finished-at="2020-07-07T10:53:48Z" duration-ms="887" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySelectSingleContactsTest -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@7dc0f706]" started-at="2020-07-07T10:53:48Z" name="closeBrowser" finished-at="2020-07-07T10:53:50Z" duration-ms="1543" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@7dc0f706]" started-at="2020-07-07T10:54:15Z" name="setUp" finished-at="2020-07-07T10:55:22Z" duration-ms="67048" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifySelectMultipleContactsTest()[pri:3, instance:com.crm.qa.testcases.ContactsPageTest@7dc0f706]" started-at="2020-07-07T10:55:22Z" name="verifySelectMultipleContactsTest" finished-at="2020-07-07T10:55:23Z" duration-ms="1143" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySelectMultipleContactsTest -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@7dc0f706]" started-at="2020-07-07T10:55:23Z" name="closeBrowser" finished-at="2020-07-07T10:55:24Z" duration-ms="1047" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@7dc0f706]" started-at="2020-07-07T10:55:39Z" name="setUp" finished-at="2020-07-07T10:56:08Z" duration-ms="29009" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyCreateNewContact(java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.crm.qa.testcases.ContactsPageTest@7dc0f706]" started-at="2020-07-07T10:56:08Z" name="verifyCreateNewContact" data-provider="getCRMTestData" finished-at="2020-07-07T10:57:38Z" duration-ms="90571" status="FAIL">
+        </test-method> <!-- SubmitATicketTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:sambasafety.testcases.SubmitTicketTest@366647c2]" started-at="2020-09-21T22:56:49 CDT" name="tearDown" finished-at="2020-09-21T22:56:50 CDT" duration-ms="1087" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[ABC]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Jordon]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Apple]]>
+                <![CDATA[[TestResult name=SubmitATicketTest status=SUCCESS method=SubmitTicketTest.SubmitATicketTest()[pri:1, instance:sambasafety.testcases.SubmitTicketTest@366647c2] output={null}]]]>
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[Unable to locate element: //input[@name='first_name' and @type='text']
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'L0USMN000110689', ip: '192.168.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 78.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200630195452, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 6344, moz:profile: C:\Users\u029jxd\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 2947e08a-52ea-41c6-adf0-fb17a99d84f1
-*** Element info: {Using=xpath, value=//input[@name='first_name' and @type='text']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[@name='first_name' and @type='text']
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'L0USMN000110689', ip: '192.168.0.5', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.7'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 78.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200630195452, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 6344, moz:profile: C:\Users\u029jxd\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 2947e08a-52ea-41c6-adf0-fb17a99d84f1
-*** Element info: {Using=xpath, value=//input[@name='first_name' and @type='text']}
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
-	at jdk.internal.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
-	at com.sun.proxy.$Proxy11.findElement(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy15.sendKeys(Unknown Source)
-	at com.crm.qa.pages.ContactsPage.createNewContact(ContactsPage.java:73)
-	at com.crm.qa.testcases.ContactsPageTest.verifyCreateNewContact(ContactsPageTest.java:95)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyCreateNewContact -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.crm.qa.testcases.ContactsPageTest@7dc0f706]" started-at="2020-07-07T10:57:38Z" name="closeBrowser" finished-at="2020-07-07T10:57:39Z" duration-ms="1046" status="PASS">
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:sambasafety.testcases.SubmitTicketTest@366647c2]" started-at="2020-09-21T22:56:50 CDT" name="endReport" finished-at="2020-09-21T22:56:50 CDT" duration-ms="404" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- com.crm.qa.testcases.ContactsPageTest -->
-      <class name="com.crm.qa.testcases.LoginPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@ae13544]" started-at="2020-07-07T10:52:02Z" name="setUp" finished-at="2020-07-07T10:52:12Z" duration-ms="9751" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyLoginPageTitleTest()[pri:1, instance:com.crm.qa.testcases.LoginPageTest@ae13544]" started-at="2020-07-07T10:52:12Z" name="verifyLoginPageTitleTest" finished-at="2020-07-07T10:52:12Z" duration-ms="37" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginPageTitleTest -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@ae13544]" started-at="2020-07-07T10:52:12Z" name="closeBrowser" finished-at="2020-07-07T10:52:14Z" duration-ms="1424" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@ae13544]" started-at="2020-07-07T10:52:55Z" name="setUp" finished-at="2020-07-07T10:53:04Z" duration-ms="8178" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyLogoImageTest()[pri:2, instance:com.crm.qa.testcases.LoginPageTest@ae13544]" started-at="2020-07-07T10:53:04Z" name="verifyLogoImageTest" finished-at="2020-07-07T10:53:04Z" duration-ms="84" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLogoImageTest -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@ae13544]" started-at="2020-07-07T10:53:04Z" name="closeBrowser" finished-at="2020-07-07T10:53:05Z" duration-ms="1234" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@ae13544]" started-at="2020-07-07T10:53:50Z" name="setUp" finished-at="2020-07-07T10:53:58Z" duration-ms="8542" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyLoginLinkTest()[pri:3, instance:com.crm.qa.testcases.LoginPageTest@ae13544]" started-at="2020-07-07T10:53:58Z" name="verifyLoginLinkTest" finished-at="2020-07-07T10:53:58Z" duration-ms="90" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginLinkTest -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@ae13544]" started-at="2020-07-07T10:53:58Z" name="closeBrowser" finished-at="2020-07-07T10:54:00Z" duration-ms="1164" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@ae13544]" started-at="2020-07-07T10:55:24Z" name="setUp" finished-at="2020-07-07T10:55:32Z" duration-ms="8249" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyLoginTest()[pri:4, instance:com.crm.qa.testcases.LoginPageTest@ae13544]" started-at="2020-07-07T10:55:32Z" name="verifyLoginTest" finished-at="2020-07-07T10:55:37Z" duration-ms="4341" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLoginTest -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@ae13544]" started-at="2020-07-07T10:55:37Z" name="closeBrowser" finished-at="2020-07-07T10:55:38Z" duration-ms="1303" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- com.crm.qa.testcases.LoginPageTest -->
-    </test> <!-- Free CRM App Test Cases -->
-  </suite> <!-- FREE CRM Application Test Automation Test Suite -->
+        </test-method> <!-- endReport -->
+      </class> <!-- sambasafety.testcases.SubmitTicketTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

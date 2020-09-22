@@ -8,6 +8,7 @@
 	</classpathentry>
 	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
 		<attributes>
+			<attribute name="test" value="true"/>
 			<attribute name="optional" value="true"/>
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
@@ -17,9 +18,9 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5">
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-11">
 		<attributes>
-			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
@@ -27,5 +28,15 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/u029jxd/OneDrive - myCWT/Documents/Selenium/softwares/poi-bin-4.1.2-20200217/poi-4.1.2/poi-4.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/u029jxd/OneDrive - myCWT/Documents/Selenium/softwares/poi-bin-4.1.2-20200217/poi-4.1.2/poi-examples-4.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/u029jxd/OneDrive - myCWT/Documents/Selenium/softwares/poi-bin-4.1.2-20200217/poi-4.1.2/poi-excelant-4.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/u029jxd/OneDrive - myCWT/Documents/Selenium/softwares/poi-bin-4.1.2-20200217/poi-4.1.2/poi-ooxml-4.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/u029jxd/OneDrive - myCWT/Documents/Selenium/softwares/poi-bin-4.1.2-20200217/poi-4.1.2/poi-ooxml-schemas-4.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/u029jxd/OneDrive - myCWT/Documents/Selenium/softwares/poi-bin-4.1.2-20200217/poi-4.1.2/poi-scratchpad-4.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/u029jxd/OneDrive - myCWT/Documents/Selenium/softwares/poi-3.9.jar/poi-3.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/u029jxd/OneDrive - myCWT/Documents/Selenium/softwares/commons-collections4-4.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/u029jxd/OneDrive - myCWT/Documents/Selenium/softwares/ExcelUtil-jar-with-dependencies.jar"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

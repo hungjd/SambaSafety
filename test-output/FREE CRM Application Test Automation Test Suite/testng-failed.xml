@@ -2,17 +2,17 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [FREE CRM Application Test Automation Test Suite]" guice-stage="DEVELOPMENT">
   <listeners>
-    <listener class-name="com.qa.ExtentReportListener.ExtentReporterNG"/>
+    <listener class-name="com.crm.qa.ExtentReportListener.ExtentReporterNG"/>
   </listeners>
   <test name="Free CRM App Test Cases(failed)">
     <classes>
-      <class name="com.crm.qa.testcases.ContactsPageTest">
+      <class name="com.crm.qa.testcases.LoginPageTest">
         <methods>
           <include name="setUp"/>
           <include name="closeBrowser"/>
-          <include name="verifyCreateNewContact" invocation-numbers="0"/>
+          <include name="LoginPageTitleTest"/>
         </methods>
-      </class> <!-- com.crm.qa.testcases.ContactsPageTest -->
+      </class> <!-- com.crm.qa.testcases.LoginPageTest -->
     </classes>
   </test> <!-- Free CRM App Test Cases(failed) -->
 </suite> <!-- Failed suite [FREE CRM Application Test Automation Test Suite] -->

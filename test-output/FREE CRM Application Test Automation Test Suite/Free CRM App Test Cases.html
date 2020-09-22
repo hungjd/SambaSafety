@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Free CRM App Test Cases</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>10/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>6/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Jul 07 10:52:02 CDT 2020</td>
+<td>Started on:</td><td>Fri Sep 04 14:04:20 CDT 2020</td>
 </tr>
-<tr><td>Total time:</td><td>336 seconds (336902 ms)</td>
+<tr><td>Total time:</td><td>159 seconds (159761 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -75,67 +75,17 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.crm.qa.testcases.ContactsPageTest.verifyCreateNewContact()'><b>verifyCreateNewContact</b><br>Test class: com.crm.qa.testcases.ContactsPageTest<br>Parameters: ABC, Jordon, Apple</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[@name=&apos;first_name&apos; and @type=&apos;text&apos;]
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
-System info: host: &apos;L0USMN000110689&apos;, ip: &apos;192.168.0.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.7&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 78.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200630195452, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 6344, moz:profile: C:\Users\u029jxd\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 2947e08a-52ea-41c6-adf0-fb17a99d84f1
-*** Element info: {Using=xpath, value=//input[@name=&apos;first_name&apos; and @type=&apos;text&apos;]}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
-	at com.sun.proxy.$Proxy11.findElement(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy15.sendKeys(Unknown Source)
-	at com.crm.qa.pages.ContactsPage.createNewContact(ContactsPage.java:73)
-	at com.crm.qa.testcases.ContactsPageTest.verifyCreateNewContact(ContactsPageTest.java:95)
-... Removed 32 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2099541600", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace2099541600'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: //input[@name=&apos;first_name&apos; and @type=&apos;text&apos;]
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
-System info: host: &apos;L0USMN000110689&apos;, ip: &apos;192.168.0.5&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.7&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 78.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20200630195452, moz:geckodriverVersion: 0.26.0, moz:headless: false, moz:processID: 6344, moz:profile: C:\Users\u029jxd\AppData\Lo..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 2947e08a-52ea-41c6-adf0-fb17a99d84f1
-*** Element info: {Using=xpath, value=//input[@name=&apos;first_name&apos; and @type=&apos;text&apos;]}
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
-	at jdk.internal.reflect.GeneratedMethodAccessor3.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
-	at com.sun.proxy.$Proxy11.findElement(Unknown Source)
-	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy15.sendKeys(Unknown Source)
-	at com.crm.qa.pages.ContactsPage.createNewContact(ContactsPage.java:73)
-	at com.crm.qa.testcases.ContactsPageTest.verifyCreateNewContact(ContactsPageTest.java:95)
+<td title='com.crm.qa.testcases.LoginPageTest.LoginPageTitleTest()'><b>LoginPageTitleTest</b><br>Test class: com.crm.qa.testcases.LoginPageTest</td>
+<td><div><pre>java.lang.AssertionError: LoginPageTitle is not match - Test Failed expected [Free CRM software can boost your sales by 30%] but found [Free CRM software helps any business large or small]
+	at com.crm.qa.testcases.LoginPageTest.LoginPageTitleTest(LoginPageTest.java:48)
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace190628410", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace190628410'><pre>java.lang.AssertionError: LoginPageTitle is not match - Test Failed expected [Free CRM software can boost your sales by 30%] but found [Free CRM software helps any business large or small]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:189)
+	at com.crm.qa.testcases.LoginPageTest.LoginPageTitleTest(LoginPageTest.java:48)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -162,8 +112,8 @@ Session ID: 2947e08a-52ea-41c6-adf0-fb17a99d84f1
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 </pre></div></td>
-<td>90</td>
-<td>com.crm.qa.testcases.ContactsPageTest@7dc0f706</td></tr>
+<td>0</td>
+<td>com.crm.qa.testcases.LoginPageTest@bccb269</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
@@ -173,55 +123,35 @@ Session ID: 2947e08a-52ea-41c6-adf0-fb17a99d84f1
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='com.crm.qa.testcases.HomePageTest.verifyContactsLinkTest()'><b>verifyContactsLinkTest</b><br>Test class: com.crm.qa.testcases.HomePageTest</td>
+<td title='com.crm.qa.testcases.LoginPageTest.CRMLogoImageTest()'><b>CRMLogoImageTest</b><br>Test class: com.crm.qa.testcases.LoginPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.crm.qa.testcases.LoginPageTest@bccb269</td></tr>
+<tr>
+<td title='com.crm.qa.testcases.HomePageTest.ContactsLinkTest()'><b>ContactsLinkTest</b><br>Test class: com.crm.qa.testcases.HomePageTest</td>
 <td></td>
 <td>1</td>
-<td>com.crm.qa.testcases.HomePageTest@3d34d211</td></tr>
+<td>com.crm.qa.testcases.HomePageTest@609cd4d8</td></tr>
 <tr>
-<td title='com.crm.qa.testcases.ContactsPageTest.verifyContactsPageLabel()'><b>verifyContactsPageLabel</b><br>Test class: com.crm.qa.testcases.ContactsPageTest</td>
+<td title='com.crm.qa.testcases.HomePageTest.HomePageTitleTest()'><b>HomePageTitleTest</b><br>Test class: com.crm.qa.testcases.HomePageTest</td>
 <td></td>
 <td>0</td>
-<td>com.crm.qa.testcases.ContactsPageTest@7dc0f706</td></tr>
+<td>com.crm.qa.testcases.HomePageTest@609cd4d8</td></tr>
 <tr>
-<td title='com.crm.qa.testcases.HomePageTest.verifyHomePageTitleTest()'><b>verifyHomePageTitleTest</b><br>Test class: com.crm.qa.testcases.HomePageTest</td>
+<td title='com.crm.qa.testcases.LoginPageTest.LoginLinkTest()'><b>LoginLinkTest</b><br>Test class: com.crm.qa.testcases.LoginPageTest</td>
 <td></td>
 <td>0</td>
-<td>com.crm.qa.testcases.HomePageTest@3d34d211</td></tr>
+<td>com.crm.qa.testcases.LoginPageTest@bccb269</td></tr>
 <tr>
-<td title='com.crm.qa.testcases.LoginPageTest.verifyLoginLinkTest()'><b>verifyLoginLinkTest</b><br>Test class: com.crm.qa.testcases.LoginPageTest</td>
+<td title='com.crm.qa.testcases.LoginPageTest.LoginTest()'><b>LoginTest</b><br>Test class: com.crm.qa.testcases.LoginPageTest</td>
 <td></td>
-<td>0</td>
-<td>com.crm.qa.testcases.LoginPageTest@ae13544</td></tr>
+<td>6</td>
+<td>com.crm.qa.testcases.LoginPageTest@bccb269</td></tr>
 <tr>
-<td title='com.crm.qa.testcases.LoginPageTest.verifyLoginPageTitleTest()'><b>verifyLoginPageTitleTest</b><br>Test class: com.crm.qa.testcases.LoginPageTest</td>
-<td></td>
-<td>0</td>
-<td>com.crm.qa.testcases.LoginPageTest@ae13544</td></tr>
-<tr>
-<td title='com.crm.qa.testcases.LoginPageTest.verifyLoginTest()'><b>verifyLoginTest</b><br>Test class: com.crm.qa.testcases.LoginPageTest</td>
-<td></td>
-<td>4</td>
-<td>com.crm.qa.testcases.LoginPageTest@ae13544</td></tr>
-<tr>
-<td title='com.crm.qa.testcases.LoginPageTest.verifyLogoImageTest()'><b>verifyLogoImageTest</b><br>Test class: com.crm.qa.testcases.LoginPageTest</td>
-<td></td>
-<td>0</td>
-<td>com.crm.qa.testcases.LoginPageTest@ae13544</td></tr>
-<tr>
-<td title='com.crm.qa.testcases.ContactsPageTest.verifySelectMultipleContactsTest()'><b>verifySelectMultipleContactsTest</b><br>Test class: com.crm.qa.testcases.ContactsPageTest</td>
+<td title='com.crm.qa.testcases.HomePageTest.UserNameTest()'><b>UserNameTest</b><br>Test class: com.crm.qa.testcases.HomePageTest</td>
 <td></td>
 <td>1</td>
-<td>com.crm.qa.testcases.ContactsPageTest@7dc0f706</td></tr>
-<tr>
-<td title='com.crm.qa.testcases.ContactsPageTest.verifySelectSingleContactsTest()'><b>verifySelectSingleContactsTest</b><br>Test class: com.crm.qa.testcases.ContactsPageTest</td>
-<td></td>
-<td>0</td>
-<td>com.crm.qa.testcases.ContactsPageTest@7dc0f706</td></tr>
-<tr>
-<td title='com.crm.qa.testcases.HomePageTest.verifyUserNameTest()'><b>verifyUserNameTest</b><br>Test class: com.crm.qa.testcases.HomePageTest</td>
-<td></td>
-<td>1</td>
-<td>com.crm.qa.testcases.HomePageTest@3d34d211</td></tr>
+<td>com.crm.qa.testcases.HomePageTest@609cd4d8</td></tr>
 </table><p>
 </body>
 </html>
