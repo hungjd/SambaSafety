@@ -1,4 +1,4 @@
-package sambasafety.testcases;
+package testcases;
 
 import java.io.File;
 import java.io.FileInputStream;
